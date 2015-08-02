@@ -1,0 +1,176 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul.nav{
+	font-size: 13px;
+}
+
+footer{
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+#get-involved{
+	background: #f5f5f5;
+}
+
+#back-to-top{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a{
+	color:#333;
+}
+
+.jumbotron{
+	text-align: center;
+	background-image: url(../images/hero-image.jpg);
+	color: white;
+}
+
+.jumbotron h1{
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+.jumbotron p{
+	margin-bottom: 30px;
+	font-weight: 100;
+}
+
+.modal-content{
+	background: gray;
+	-webkit-border-radius:30px;
+	-webkit-box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.72);
+	-moz-box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.72);
+	-o-box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.72);
+}
+
+.modal-content iframe{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	-webkit-border-radius:30px;
+	-webkit-box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.72);
+	-moz-box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.72);
+	-o-box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.72);
+}
+
+.modal-content button.close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	-webkit-border-radius:14px;
+	-o-border-radius:14px;
+	-moz-border-radius:14px;
+}
+
+
+.btn-lg{
+	font-size: 36px;
+}
+
+.homepage{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.homepage h2, .homepage h3{
+	color: #e74c3c;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+}
+
+.homepage h2{
+	font-size: 30px;
+}
+
+.homepage h3{
+	font-size: 26px;
+}
+
+.homepage p{
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage a{
+	color: #e74c3c;
+}
+
+.homepage a:hover{
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.homepage hr{
+	border-top: 1px solid #e74c3c;
+	width: 160px;
+	margin-top: 15px;
+}
+
+/*Responsive Styling */
+
+@media (max-width: 1199px) {
+	
+	.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+ }
+
+ @media (max-width: 991px) {
+	
+	.jumbotron h1{
+		font-size: 44px;
+	}
+
+	.jumbotron p{
+		padding: 0 10px;
+	}
+
+	#get-involved .col-mid-4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+ }
+
+  @media (max-width: 767px) {
+	
+	.jumbotron h1{
+		font-size: 24px;
+	}
+
+	.jumbotron p{
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg{
+		font-size: 18px;
+	}
+
+	.homepage p{
+		font-size: 18px;
+	}
+
+	footer img{
+		width: 80%;
+	}
+ }
+
