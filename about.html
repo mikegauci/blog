@@ -37,7 +37,7 @@
   <body>
 
 <!-- Static navbar -->
-    <nav class="navbar-default">
+    <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,34 +48,28 @@
           </button>
           <a class="navbar-brand"><strong>M</strong>ike&nbsp;</strong><strong>G</strong>auci</a>
         </div>
-        <div id="navbar" class="navbar-collapse">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li id="active-home"><a href="index.html" style="background: #dbdbdb;">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" style="background-color: #DBDBDB;">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-<div id="blog-page-background">
+
+    <div id="blog-page">
         <div class="container">
 
           <div class="row">
 
             <div class="col-med-10 col-med-offset-1  blog-main">
-              <div id="about-main" style="padding: 100px; margin-bottom: 230px">
+              <div id="about-main">
                  <img src="images/mike2.png" alt="Mike">
-                    <h1>I send out learning hacks and all things cool and valuable</h1>
-                       <form class="form-inline">        
-                      <div id="form-index">
-                        <label for="exampleInputEmail2">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                        <button type="submit" class="btn btn-default">Send invitation</button>
-                      </div>                  
-                    </form> 
-                 <p id="index-par">I was encouraged to study in the IT area since its a growing subject and a career in demand, so I looked up some courses and I found a course which appealed to me on <strong><a href="http://icemalta.com" target="_blank">icemalta.com</a></strong> which was <strong>MTA Website Development with ASP.NET.</strong> As soon as the first lesson passed, my passion for web development and coding started to grow.</p>
+                 <h2>In 2014 I decided that I wasn't going to live my life without having a decent education and a career for my future</h2>
+                 <p>I was encouraged to study in the IT area since its a growing subject and a career in demand, so I looked up some courses and I found a course which appealed to me on <strong><a href="http://icemalta.com" target="_blank">icemalta.com</a></strong> which was <strong>MTA Website Development with ASP.NET.</strong> As soon as the first lesson passed, my passion for web development and coding started to grow.</p>
               </div>
       
             </div><!-- /.container -->
@@ -84,13 +78,11 @@
 
      </div>
   </div>
-       
 
-   <footer class="blog-footer">
+
+    <footer class="blog-footer sticky-footer">
       <p>&#169; 2015 Michael Gauci, Email at <strong>mikegauci@gmail.com</strong></p>
     </footer>
-
-
 
 
     <!-- Bootstrap core JavaScript
