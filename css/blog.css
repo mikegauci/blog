@@ -85,7 +85,12 @@ h2{
     margin-bottom: 20px;
   }
 
+  .clear{
+    text-align: center;
+  }
+
 }
+
 
 @media (max-width: 500px){
   #about-index img{
@@ -138,9 +143,18 @@ h2{
     margin-top: -40px;
     margin-bottom: 10px;
   }
+
+
+  .clear{
+    margin-top: 45px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .content{
+    width: 70%;
+  }
+
 }
-
-
 
 .navbar-collapse{
   overflow-x: hidden;
@@ -476,11 +490,9 @@ h2{
 /* Portfolio */
 
 
-
-
 .content{
   margin: 80px auto;
-  width: 600px;
+  width: 100%;
 }
 
 .inner-content{
