@@ -43,7 +43,7 @@ h2{
 @media (max-width: 768px) {
 
   #subscribe-box.sidebar-module {
-    width: 350px;
+    width: 100%;
     margin: 90px auto;
   }
 
@@ -52,7 +52,7 @@ h2{
   }
 
   #posts-box.sidebar-module{
-    width: 300px;
+    width: 90%;
     margin: 90px auto;
   }
 
@@ -92,10 +92,31 @@ h2{
   #join-button{
     margin-right: -29px;
   }
+
+  h2.blog-post-title{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #blog-para{
+    font-size: 12px;
+    text-align: center;
+  }
+
+
+  #share-buttons p{
+    text-align: center;
+  }
+
+  #share-buttons img{
+    padding: 10px;
+  }
 }
 
 
-
+.navbar-collapse{
+  overflow-x: hidden;
+}
 
 
 
@@ -233,12 +254,12 @@ h2{
   line-height: 1.5;
 }
 
-#udemy {
+#blog-photo {
   max-width: 100%;
   margin-bottom: 20px;
   border: solid 6px;
   box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .blog-sidebar{
@@ -301,6 +322,7 @@ h2{
 .btn-warning{
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 32%;
 }
 
 .form-group{
@@ -489,11 +511,3 @@ h2{
 
 /*Resposive Styling */
 
-@media (max-width: 768px) {
-
-  #subscribe-box.sidebar-module {
-    width: 350px;
-    margin: 90px auto;
-  }
-
-}
