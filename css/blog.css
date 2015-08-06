@@ -30,9 +30,7 @@ h2{
 }
 
 
-/*
- * Override Bootstrap's default container.
- */
+/*  Override Bootstrap's default container. */
 
 @media (min-width: 1200px) {
   .container {
@@ -156,13 +154,6 @@ h2{
 
 }
 
-.navbar-collapse{
-  overflow-x: hidden;
-}
-
-
-
-
 
 /*Navbar */
 .navbar-brand{
@@ -195,7 +186,18 @@ h2{
   margin-bottom: 0px;
 } 
 
-/* Index Page */
+/* Blog Page Layout  */
+#blog-page{
+  padding-top: 30px;
+}
+
+.navbar-collapse{
+  overflow-x: hidden;
+}
+
+
+
+/* --- INDEX PAGE --- */
 
 #about-index img{
    margin-top: 60px;
@@ -269,44 +271,8 @@ h2{
 
 
 
-/* Blog Page */
-#blog-page{
-  padding-top: 30px;
-}
 
-
-/* Main column and sidebar layout */
-
-.blog-post-meta {
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 3px;
-}
-
-.btn-danger {
-  color: #fff;
-  margin-right: 30px;
-  text-transform: capitalize;
-  letter-spacing: 0;
-  font-weight: bold;
-}
-
-.blog-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-#blog-photo {
-  max-width: 100%;
-  margin-bottom: 20px;
-  border: solid 6px;
-  box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
-  border-radius: 10px;
-}
-
-.blog-sidebar{
-  padding-left: 15px;
-}
+/*   BLOG  */
 
 
 /* Sidebar modules for boxing content */
@@ -391,20 +357,38 @@ h2{
 }
 
 
-/* Pagination */
-.pager {
-  margin-bottom: 40px;
-  text-align: left;
-}
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
+/*------End Side bar content------ */
+
+.blog-post-meta {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
 }
 
+.btn-danger {
+  color: #fff;
+  margin-right: 30px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-weight: bold;
+}
 
-/* Blog posts */
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#blog-photo {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: solid 6px;
+  box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
+  border-radius: 10px;
+}
+
+.blog-sidebar{
+  padding-left: 15px;
+}
 
 .blog-post  {
   margin-bottom: 40px;
@@ -427,8 +411,6 @@ h2{
   color: #23527c;
 }
 
-
-/*Blog Post Page */
 
 #share-buttons img {
   width: 75px;
@@ -461,7 +443,7 @@ h2{
 
 }
 
-/*About page */
+/*   ABOUT PAGE   */
 
 #about-main img{
   width: 200px;
@@ -483,11 +465,11 @@ h2{
 #blog-par{
   clear: left;
   padding-top: 30px;
-  margin-bottom: 280px;
+  margin-bottom: 215px;
   text-align: justify;
 }
 
-/* Portfolio */
+/*    PORTFOLIO    */
 
 
 .content{
@@ -520,6 +502,7 @@ h2{
 
 .inner-content p{
   padding: 5px;
+  font-weight: bold;
   text-align: center;
 }
  
@@ -541,6 +524,4 @@ h2{
 }
 
 
-
-/*Resposive Styling */
 
