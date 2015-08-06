@@ -74,6 +74,17 @@ h2{
     margin-right: 10px;
   }
 
+  #about-main h2 {
+    font-size: 20px;
+    padding: 77px;
+  }
+
+  p#blog-par{
+    font-size: 14px;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 500px){
@@ -111,7 +122,24 @@ h2{
   #share-buttons img{
     padding: 10px;
   }
-}
+
+  #about-main img {
+    margin-left: 60px;  
+  }
+
+  #about-main h2{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p#blog-par{
+    font-size: 11px;
+    padding: 29px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+  }
+
+
 
 
 .navbar-collapse{
@@ -199,7 +227,7 @@ h2{
 
 #blog-page-background{
   background-image: url(../images/seaview.png);
-  height: 680px;
+  height: 677px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,11 +443,8 @@ h2{
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
 }
 
 /*About page */
@@ -427,6 +452,7 @@ h2{
 #about-main img{
   width: 200px;
   margin-bottom: 30px;
+  margin-top: 40px;
   margin-right: 10px;
   float: left;
   border: 6px groove;
@@ -434,8 +460,8 @@ h2{
   box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
 }
 
-#about-main h2{
-  padding: 40px;
+#about-header {
+  padding: 75px;
   text-align: right;
   font-size: 37px;
 }
@@ -443,7 +469,7 @@ h2{
 #blog-par{
   clear: left;
   padding-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 280px;
   text-align: justify;
 }
 
@@ -502,11 +528,6 @@ h2{
   margin-bottom: 0;
 }
 
-.sticky-footer{
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-}
 
 
 /*Resposive Styling */
