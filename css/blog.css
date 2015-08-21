@@ -80,7 +80,7 @@ h2{
   p#blog-par{
     font-size: 14px;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 210px;
   }
 
   .clear{
@@ -136,10 +136,10 @@ h2{
   }
 
   p#blog-par{
-    font-size: 11px;
+    font-size: 15px;
     padding: 29px;
     margin-top: -40px;
-    margin-bottom: 10px;
+    margin-bottom: 150px;
   }
 
 
@@ -148,10 +148,10 @@ h2{
     font-size: 28px;
     text-align: center;
   }
+
   .content{
     width: 70%;
   }
-
 }
 
 
@@ -505,9 +505,10 @@ h2{
   font-weight: bold;
   text-align: center;
 }
- 
 
-
+#proper{
+  border: 4px solid #2ecc71;
+}
 
 
 /* Footer */
