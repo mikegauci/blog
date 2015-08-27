@@ -1,0 +1,6 @@
+C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Mike-Blog\Mike-Blog\bin\Mike-Blog.dll.config
+C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Mike-Blog\Mike-Blog\bin\Mike-Blog.dll
+C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Mike-Blog\Mike-Blog\bin\Mike-Blog.pdb
+C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Mike-Blog\Mike-Blog\obj\Release\Mike-Blog.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Mike-Blog\Mike-Blog\obj\Release\Mike-Blog.dll
+C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Mike-Blog\Mike-Blog\obj\Release\Mike-Blog.pdb
